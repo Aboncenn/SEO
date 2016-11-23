@@ -1,7 +1,5 @@
 /* GENERAL */
 
-
-
   body{
     font-family: 'Karla',sans-serif;
     letter-spacing: 0.5px;
@@ -9,7 +7,7 @@
     cursor: url("../img/logo.png"), pointer;
   }
 
-  h1, h2, h3, h4, h5{
+ h2, h3, h4, h5{
     font-family: 'Karla',sans-serif;
     line-height: 1;
   }
@@ -31,7 +29,9 @@
   }
 
 /* NAVIGATION */
-
+h1{
+    font-size: 0.6em;
+}
   nav{
     margin: 25px 0 40px 0;
   }
@@ -46,7 +46,7 @@
   }
 
   .navigation-title{
-    margin: 0 57px 0 0;
+    margin: 0 37px 0 0;
     display: inline-table;
     text-align: center;
     line-height: 1;
@@ -59,7 +59,7 @@
   }
 
   .navigation-item{
-    margin: 0 0 0 49px;
+    margin: 0 0 0 36px;
   }
 
 /* FOOTER */
@@ -99,12 +99,15 @@
     color:#676666;
   }
 
+    .FB{
+    font-size: 2em;
+}
 /* TITRE DE LA CATEGORIE */
   .wrapper-titre-categorie{
     border: 1px dashed #000;
   }
 
-  .wrapper-titre-categorie p{
+  .wrapper-titre-categorie h2{
     font-size: 22px;
     text-align: center;
     margin: 0;
