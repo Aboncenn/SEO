@@ -6,7 +6,10 @@
     line-height: 1;
     cursor: url("../img/logo.png"), pointer;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0dc2da3ada926b4d89d7a4e8759ebdcc813a6e54
  h2, h3, h4, h5{
     font-family: 'Karla',sans-serif;
     line-height: 1;
@@ -16,6 +19,9 @@
     line-height: 1.5;
   }
 
+  h1{
+    font-size: 0.9em;
+  }
   .active{
     font-weight: bold;
     font-size: 15px;
