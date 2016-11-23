@@ -1,0 +1,1 @@
+FB={getLoginStatus:function(){},api:function(){},ui:function(){},Event:{subscribe:function(){}},UIServer:{},XFBML:{parse:function(){}},init:function(){},__noSuchMethod__:function(){}};
