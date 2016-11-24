@@ -5558,9 +5558,6 @@ function curCSS( elem, name, computed ) {
 
 	// Support: IE9
 	// getPropertyValue is only needed for .css('filter') (#12537)
-	if ( computed ) {
-		ret = computed.getPropertyValue( name ) || computed[ name ];
-	}
 
 	if ( computed ) {
 
